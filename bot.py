@@ -56,7 +56,7 @@ if __name__ == "__main__":
     while True:
         now = datetime.now()
         currentTime = now.strftime("%H")
-        print(currentTime)
+        
         if currentTime == "08":
             uploadTree("daily.jpg", text)
 
